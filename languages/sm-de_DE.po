@@ -1,0 +1,499 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: sm\n"
+"POT-Creation-Date: 2017-10-18 11:47+0200\n"
+"PO-Revision-Date: 2017-10-18 11:47+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: SimpleMailerConfig.php:199
+msgid "Please enter the sender email address."
+msgstr "Bitte geben Sie die E-Mail-Adresse des Absenders ein."
+
+#: SimpleMailerConfig.php:203
+msgid "Please enter a valid email address of the sender."
+msgstr "Bitte geben Sie eine gültige E-Mail-Adresse des Absenders ein."
+
+#: SimpleMailerConfig.php:211
+msgid "Please enter SMTP host name."
+msgstr "Bitte geben Sie SMTP-Hostname ein."
+
+#: SimpleMailerConfig.php:214
+msgid "Please enter the SMTP port number."
+msgstr "Bitte geben Sie SMTP-Port-Nummer ein."
+
+#: SimpleMailerConfig.php:217
+msgid "Please enter your SMTP username."
+msgstr "Bitte geben Sie SMTP-Benutzername ein."
+
+#: SimpleMailerConfig.php:220
+msgid "Please enter your SMTP password."
+msgstr "Bitte geben Sie SMTP-Passwort ein."
+
+#: SimpleMailerConfig.php:228
+msgid "Please enter the reCAPTCHA site key."
+msgstr "Bitte geben Sie reCAPTCHA-Websiteschlüssel ein."
+
+#: SimpleMailerConfig.php:231
+msgid "Please enter reCAPTCHA secret key."
+msgstr "Bitte geben Sie reCAPTCHA-Geheimen Schlüssel ein."
+
+#: SimpleMailerConfig.php:317
+msgid ""
+"The settings may not have been saved completely. Turn error reporting on to "
+"get more detailed error information in the debug.log file."
+msgstr ""
+"Die Einstellungen wurden möglicherweise nicht vollständig gespeichert. "
+"Aktivieren Sie WordPress \"error reporting\", um detailliertere "
+"Fehlerinformationen in der debug.log Datei zu erhalten."
+
+#: SimpleMailerConfig.php:320
+msgid "SimpleMailer settings have been saved successfully."
+msgstr "SimpleMailer-Einstellungen wurden erfolgreich gespeichert."
+
+#: SimpleMailerProcessor.php:99
+msgid "SimpleMailer Settings"
+msgstr "SimpleMailer Einstellungen"
+
+#: SimpleMailerProcessor.php:100
+msgid "SimpleMailer"
+msgstr "SimpleMailer"
+
+#: SimpleMailerProcessor.php:114
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: SimpleMailerProcessor.php:216 SimpleMailerProcessor.php:219
+msgid "Name"
+msgstr "Name"
+
+#: SimpleMailerProcessor.php:240 SimpleMailerProcessor.php:243
+msgid "Email address"
+msgstr "E-Mail-Adresse"
+
+#: SimpleMailerProcessor.php:265 SimpleMailerProcessor.php:268
+msgid "Phone number"
+msgstr "Telefonnummer"
+
+#: SimpleMailerProcessor.php:290 SimpleMailerProcessor.php:293
+msgid "Subject"
+msgstr "Betreff"
+
+#: SimpleMailerProcessor.php:314 SimpleMailerProcessor.php:317
+msgid "Message"
+msgstr "Nachricht"
+
+#: SimpleMailerProcessor.php:338
+msgid "Attach documents"
+msgstr "Dokumente anhängen"
+
+#: SimpleMailerProcessor.php:341
+msgid "Attach document"
+msgstr "Dokument anhängen"
+
+#: SimpleMailerProcessor.php:380
+msgid "Send message"
+msgstr "Nachricht senden"
+
+#: SimpleMailerProcessor.php:403
+msgid "Please wait..."
+msgstr "Bitte warten..."
+
+#: SimpleMailerProcessor.php:440
+msgid "Common Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: SimpleMailerProcessor.php:442
+msgid "Website name"
+msgstr "Webseiten-Name"
+
+#: SimpleMailerProcessor.php:443
+msgid "Website name to be used for email transmission."
+msgstr "Name der Website, der für den E-Mail-Versand verwendet werden soll."
+
+#: SimpleMailerProcessor.php:451
+msgid "Email settings"
+msgstr "E-Mail-Einstellungen"
+
+#: SimpleMailerProcessor.php:453 SimpleMailerProcessor.php:585
+msgid "Email Address"
+msgstr "E-Mail-Adresse"
+
+#: SimpleMailerProcessor.php:455
+msgid ""
+"Your email address. This is the email address to which the SimpleMailer will "
+"send all the messages."
+msgstr ""
+"Ihre E-Mail-Adresse. Es ist die E-Mail-Adresse, an die alle Nachrichten "
+"geschickt werden sollen."
+
+#: SimpleMailerProcessor.php:460
+msgid "Sending emails via SMTP"
+msgstr "E-Mail-Versand über SMTP"
+
+#: SimpleMailerProcessor.php:462
+msgid ""
+"Simple Mail Transfer Protocol (SMTP) is a protocol that allows the sending "
+"of messages over a TCP/IP-based network from one server to another."
+msgstr ""
+"Simple Mail Transfer Protocol (SMTP) ist ein Protokoll, das das Versenden "
+"von Nachrichten über ein TCP/IP-basiertes Netzwerk von einem Server an einen "
+"anderen ermöglicht."
+
+#: SimpleMailerProcessor.php:466
+msgid "Enable SMTP"
+msgstr "SMTP Aktivieren"
+
+#: SimpleMailerProcessor.php:470
+msgid "SMTP Host name"
+msgstr "SMTP-Hostname"
+
+#: SimpleMailerProcessor.php:472
+msgid ""
+"The host name of the outgoing SMTP (Simple Mail Transfer Protocol) server, "
+"such as smtp.example.com."
+msgstr ""
+"Der Hostname des SMTP (Simple Mail Transfer Protocol)-Ausgangsservers, z. B. "
+"smtp.beispiel.com."
+
+#: SimpleMailerProcessor.php:477
+msgid "SMTP Port"
+msgstr "SMTP-Port"
+
+#: SimpleMailerProcessor.php:479
+msgid ""
+"The port number used by the outgoing mail server. Common port numbers for "
+"outgoing mail are 25, 465, and 587."
+msgstr ""
+"Die vom Postausgangsserver verwendete Port-Nummer. Gängige Port-Nummern für "
+"ausgehende E-Mails sind 25, 465 und 587."
+
+#: SimpleMailerProcessor.php:484
+msgid "Encryption"
+msgstr "Verschlüsselung"
+
+#: SimpleMailerProcessor.php:485
+msgid "Does the outgoing mail server support SSL or TLS encryption?"
+msgstr "Unterstützt der Postausgangsserver SSL- oder TLS-Verschlüsselung?"
+
+#: SimpleMailerProcessor.php:496
+msgid "SMTP username"
+msgstr "SMTP-Benutzername"
+
+#: SimpleMailerProcessor.php:498
+msgid ""
+"Your user name for this account, such as appleseed. Some email providers "
+"want your full email address as your user name."
+msgstr ""
+"Ihr Benutzername für diesen Account, z. B. Mustermann. Bei einigen E-Mail-"
+"Anbietern müssen Sie Ihre vollständige E-Mail-Adresse als Ihren "
+"Benutzernamen verwenden."
+
+#: SimpleMailerProcessor.php:503
+msgid "SMTP password"
+msgstr "SMTP-Passwort"
+
+#: SimpleMailerProcessor.php:504
+msgid "The email password you use to sign in to your account."
+msgstr ""
+"Das E-Mail-Passwort, das Sie zur Anmeldung bei Ihrem Account verwenden."
+
+#: SimpleMailerProcessor.php:510
+msgid "Full Name"
+msgstr "Absender Name"
+
+#: SimpleMailerProcessor.php:512
+msgid ""
+"Choose your sender name as you would like it to appear in messages that you "
+"send. Example: John Appleseed."
+msgstr ""
+"Wählen Sie Ihren Absendernamen aus, der in Nachrichten, die Sie senden, "
+"angezeigt werden soll. Beispiel: Michael Mustermann."
+
+#: SimpleMailerProcessor.php:517
+msgid "SMTP Debug"
+msgstr "SMTP Debug"
+
+#: SimpleMailerProcessor.php:518
+msgid "Debug Mode: 0, 1, 2 or 3. Default: 0 (Off)."
+msgstr "Debug Mode: 0, 1, 2 oder 3. Default ist: 0 (Aus)."
+
+#: SimpleMailerProcessor.php:527
+msgid "Form fields"
+msgstr "Formularfelder"
+
+#: SimpleMailerProcessor.php:529
+msgid "File Upload field"
+msgstr "Datei-Upload-Feld"
+
+#: SimpleMailerProcessor.php:531
+msgid ""
+"Allow sending of files as email attachments, e. g. a collection of images or "
+"a PDF document."
+msgstr ""
+"Versenden von Dateien als E-Mail-Anhang erlauben, z. B. eine Bildersammlung "
+"oder ein PDF-Dokument."
+
+#: SimpleMailerProcessor.php:535
+msgid "Show file upload"
+msgstr "Datei-Upload anzeigen"
+
+#: SimpleMailerProcessor.php:539
+msgid "Multiple file uploads"
+msgstr "Multiple Datei-Uploads"
+
+#: SimpleMailerProcessor.php:540
+msgid "Allow sending multiple files in the attachment."
+msgstr "Versenden von mehreren Dateien im Anhang erlauben."
+
+#: SimpleMailerProcessor.php:544
+msgid "Allow multiple uploads"
+msgstr "Multiple Datei-Uploads"
+
+#: SimpleMailerProcessor.php:550
+msgid "Subject field"
+msgstr "Betreff-Feld"
+
+#: SimpleMailerProcessor.php:552
+msgid "Add a subject field to the form."
+msgstr "Ein Betreff-Feld dem Kontaktformular hinzufügen."
+
+#: SimpleMailerProcessor.php:556
+msgid "Show subject"
+msgstr "Betreff anzeigen"
+
+#: SimpleMailerProcessor.php:561 SimpleMailerProcessor.php:595
+msgid "Phone number field"
+msgstr "Telefonnummer-Feld"
+
+#: SimpleMailerProcessor.php:562
+msgid "Add a phone number field to the form."
+msgstr "Ein Telefonnummer-Feld dem Kontaktformular hinzufügen."
+
+#: SimpleMailerProcessor.php:566
+msgid "Show phone number"
+msgstr "Telefonnummer anzeigen"
+
+#: SimpleMailerProcessor.php:573
+msgid "Required fields"
+msgstr "Pflichtfelder"
+
+#: SimpleMailerProcessor.php:575
+msgid "Field Name"
+msgstr "Feld Name"
+
+#: SimpleMailerProcessor.php:576
+msgid "This option allows you to define Name as a required field."
+msgstr "Mit dieser Option definieren Sie Name als ein Pflichtfeld."
+
+#: SimpleMailerProcessor.php:580
+msgid "Define name as required field"
+msgstr "Name als Pflichtfeld definieren"
+
+#: SimpleMailerProcessor.php:586
+msgid "This option allows you to define Email as a required field."
+msgstr "Mit dieser Option definieren Sie E-Mail-Adresse als ein Pflichtfeld."
+
+#: SimpleMailerProcessor.php:590
+msgid "Define Email as required field"
+msgstr "E-Mail-Adresse als Pflichtfeld definieren"
+
+#: SimpleMailerProcessor.php:596
+msgid "This option allows you to define Phone Number as a required field."
+msgstr "Mit dieser Option definieren Sie Telefonnummer als ein Pflichtfeld."
+
+#: SimpleMailerProcessor.php:600
+msgid "Define Phone as required field"
+msgstr "Telefonnummer als Pflichtfeld definieren"
+
+#: SimpleMailerProcessor.php:605
+msgid "Email subject"
+msgstr "E-Mail-Betreff"
+
+#: SimpleMailerProcessor.php:606
+msgid "This option allows you to define Subject as a required field."
+msgstr "Mit dieser Option definieren Sie Betreff als ein Pflichtfeld."
+
+#: SimpleMailerProcessor.php:610
+msgid "Define Subject as required field"
+msgstr "Betreff als Pflichtfeld definieren"
+
+#: SimpleMailerProcessor.php:616
+msgid "Message field"
+msgstr "Nachricht Feld"
+
+#: SimpleMailerProcessor.php:617
+msgid "This option allows you to define Message as a required field."
+msgstr "Mit dieser Option definieren Sie Nachricht als ein Pflichtfeld."
+
+#: SimpleMailerProcessor.php:621
+msgid "Define Message as required field"
+msgstr "Nachricht als Pflichtfeld definieren"
+
+#: SimpleMailerProcessor.php:630
+msgid "Security settings"
+msgstr "Sicherheitseinstellungen"
+
+#: SimpleMailerProcessor.php:632
+msgid "Google reCAPTCHA V2"
+msgstr "Google reCAPTCHA V2"
+
+#: SimpleMailerProcessor.php:633
+msgid "Activate this checkbox if you want to use reCAPTCHA."
+msgstr "Aktivieren Sie diese Checkbox, wenn Sie reCAPTCHA verwenden möchten."
+
+#: SimpleMailerProcessor.php:637
+msgid "Use reCAPTCHA"
+msgstr "reCAPTCHA verwenden"
+
+#: SimpleMailerProcessor.php:640
+msgid "Site key"
+msgstr "Websiteschlüssel"
+
+#: SimpleMailerProcessor.php:641
+msgid "Get Google's ReCaptcha Site key and enter it here"
+msgstr "ReCaptcha Websiteschlüssel von Google beantragen und hier eingeben"
+
+#: SimpleMailerProcessor.php:647
+msgid "Secret key"
+msgstr "Geheimer Schlüssel"
+
+#: SimpleMailerProcessor.php:648
+msgid "Get Google's ReCaptcha Secret key and enter it here"
+msgstr "ReCaptcha Geheimer Schlüssel von Google hier eingeben"
+
+#: SimpleMailerProcessor.php:659
+msgid "Save Settings"
+msgstr "Einstellungen Speichern"
+
+#: SimpleMailerProcessor.php:710
+#, php-format
+msgid ""
+"File %s could not sent, the maximum number (%d) of attachments has been "
+"reached!"
+msgstr ""
+"Datei %s konnte nicht gesendet werden, die maximale Anzahl (%d) an Anhängen "
+"wurde erreicht!"
+
+#: SimpleMailerProcessor.php:722
+#, php-format
+msgid "File %s could not sent!"
+msgstr "Datei %s konnte nicht gesendet werden!"
+
+#: SimpleMailerProcessor.php:733
+msgid "No file was sent!"
+msgstr "Es wurde keine Datei versendet!"
+
+#: SimpleMailerProcessor.php:749
+msgid "Please enter your name!"
+msgstr "Tragen Sie bitte Ihren Namen ein!"
+
+#: SimpleMailerProcessor.php:752
+msgid "Please enter your email address!"
+msgstr "Tragen Sie bitte Ihre E-Mail-Adresse ein!"
+
+#: SimpleMailerProcessor.php:756
+msgid "Please enter your phone number!"
+msgstr "Tragen Sie bitte Ihre Telefonnummer ein!"
+
+#: SimpleMailerProcessor.php:759
+msgid "Please enter your message!"
+msgstr "Bitte geben Sie Ihre Nachricht ein!"
+
+#: SimpleMailerProcessor.php:763
+msgid "Please enter the subject of the message you want to send!"
+msgstr "Bitte geben Sie den Betreff der Nachricht ein!"
+
+#: SimpleMailerProcessor.php:767
+msgid ""
+"You have been identified as a bot because you filled in a special field, "
+"which should remain empty."
+msgstr ""
+"Sie wurden als Bot identifiziert, weil Sie ein Spezialfeld ausgefüllt haben, "
+"welches allerdings leer bleiben sollte."
+
+#: SimpleMailerProcessor.php:776
+msgid "Please complete the reCAPTCHA below!"
+msgstr "Bitte das reCAPTCHA aktivieren!"
+
+#: SimpleMailerProcessor.php:784
+msgid "The response parameter is invalid or malformed!"
+msgstr "Der Response-Parameter ist ungültig oder fehlerhaft!"
+
+#: SimpleMailerProcessor.php:791
+msgid "The entered email address is not valid!"
+msgstr "Die eingegebene E-Mail-Adresse ist ungültig!"
+
+#: SimpleMailerProcessor.php:794
+msgid "The entered \"name\" is not valid!"
+msgstr "Der eingegebene \"Name\" ist ungültig!"
+
+#: SimpleMailerProcessor.php:797
+msgid "The entered \"phone number\" is not valid!"
+msgstr "Die eingegebene \"Telefonnummer\" ist ungültig!"
+
+#: SimpleMailerProcessor.php:800
+msgid "The entered \"subject\" is not valid!"
+msgstr "Der eingegebene \"Betreff\" ist ungültig!"
+
+#: SimpleMailerProcessor.php:803
+msgid "The entered \"message\" is not valid!"
+msgstr "Die eingegebene \"Nachricht\" ist ungültig!"
+
+#: SimpleMailerProcessor.php:825
+msgid ""
+"The configuration of the SimpleMailer plugin was not completed. Please "
+"complete the configuration in the administrator area!"
+msgstr ""
+"Die Konfiguration des Plugins wurde nicht vollständig durchgeführt. Bitte "
+"führen Sie die Konfiguration im Administratorbereich vollständig aus!"
+
+#: SimpleMailerProcessor.php:851
+msgid "Name: "
+msgstr "Name: "
+
+#: SimpleMailerProcessor.php:854
+msgid "Email: "
+msgstr "E-Mail-Adresse: "
+
+#: SimpleMailerProcessor.php:857
+msgid "Phone number: "
+msgstr "Telefonnummer: "
+
+#: SimpleMailerSanitizer.php:560
+#, php-format
+msgid "URL: Scheme \"%s\" is not allowed"
+msgstr ""
+
+#~ msgid "Please fill in the following fields"
+#~ msgstr "Bitte füllen Sie die folgenden Felder aus"
+
+#~ msgid "Your email address for this account, such as appleseed@example.com."
+#~ msgstr ""
+#~ "Ihre E-Mail-Adresse für diesen Account, z. B. mustermann@beispiel.com"
+
+#~ msgid ""
+#~ "Your message has been sent successfully. Thank your for your interest!"
+#~ msgstr ""
+#~ "Ihre Nachricht wurde erfolgreich versendet. Vielen Dank für Ihr Interesse!"
+
+#~ msgid "e-mail address"
+#~ msgstr "E-Mail-Adresse"
+
+#~ msgid "Send file"
+#~ msgstr "Datei senden"
+
+#~ msgid "Send files"
+#~ msgstr "Dateien senden"
+
+#~ msgid "Datei senden"
+#~ msgstr "Send file"

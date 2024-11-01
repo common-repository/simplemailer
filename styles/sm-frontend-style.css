@@ -1,0 +1,98 @@
+
+.notice {
+	background: #fff;
+	border-left: 4px solid #fff;
+	-webkit-box-shadow: 0 1px 1px 1px rgba(0,0,0,.1);
+	box-shadow: 0 1px 1px 1px rgba(0,0,0,.1);
+	margin: 6px 0 0;
+	padding: 4px 12px;
+	display: block !important;
+}
+
+.notice:last-of-type, div.error:last-of-type, div.updated:last-of-type {
+	margin-bottom: 30px;
+}
+
+.notice p {
+	margin: 0;
+	padding: 0;
+}
+
+.notice-error {
+	border-left-color: #dc3232;
+}
+
+.notice-success {
+	border-left-color: #79c316;
+}
+
+.notice-warning {
+	border-left-color: #ffcc00;
+}
+
+.g-recaptcha {
+	margin-bottom: .5em;
+}
+
+#delay {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+}
+
+#delay #clamp {
+	width: 100%;
+	height: 100%;
+	background-image: url('../images/tr_bg.png');
+	background-repeat: repeat;
+	position: relative;
+}
+
+#delay #clamp #stop-delay {
+	background: url('../images/icon-close.svg') center no-repeat;
+	position: absolute;
+	font-size: 1.3em;
+	width: 1.3em;
+	height: 1.3em;
+	line-height: 100%;
+	top: 40px; right: 40px;
+	text-decoration: none !important;
+	border: none !important;
+	box-shadow: none;
+	color: #3087cc;
+}
+
+#delay #clamp #loader {
+	background: url('../images/ajax-loader.gif') center no-repeat;
+	position: absolute;
+	display: block;
+	padding: 10px;
+	width: 50%;
+	height: 50%;
+	max-height: 50px;
+	overflow: auto;
+	margin: auto;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+
+#delay #delay-info {
+	color: #3087cc;
+	text-align: center;
+	position: absolute;
+	overflow: auto;
+	margin: auto;
+	top: 54%;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+label .required:after {
+	content: " *";
+	color: red;
+	display: inline;
+}
